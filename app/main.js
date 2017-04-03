@@ -28,7 +28,7 @@ app.on('ready', function () {
     'min-width': 500,
     'min-height': 200,
     'accept-first-mouse': true,
-    'title-bar-style': 'hidden'
+     frame: false
   });
   // and load the index.html of the app.
   mainWindow.loadUrl('file://' + __dirname + '/index.html');
