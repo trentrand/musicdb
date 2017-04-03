@@ -61,3 +61,5 @@ gulp.task('build-electron', function () {
             return release_windows.build();
     }
 });
+
+gulp.task('default', ['run']);
