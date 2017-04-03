@@ -676,6 +676,11 @@ textarea {
   width: 33.3%;
 }
 
+.pane-sidebar {
+  width: 175px;
+  flex: none;
+}
+
 img {
   -webkit-user-drag: text;
 }

@@ -1,3 +1,11 @@
 .toolbar.toolbar-header {
     -webkit-app-region: drag
 }
+.fa-placholder {
+    font-family: "FontAwesome", "Source Sans Pro";
+}
+.full {
+    right: 0;
+    left: 175px;
+    position: fixed;
+}
