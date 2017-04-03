@@ -1,13 +1,17 @@
 // Module to control application life.
-var app = require('app'); 
+var app = require('app');
 
 // Module to create native browser window.
 var BrowserWindow = require('browser-window');
 
+// Keep a global reference of the window object, if you don't, the window will
+// be closed automatically when the JavaScript object is garbage collected.
 var mainWindow = null;
 
 // Quit when all windows are closed.
-app.on('window-all-closed', function () {
+app.on('window-all-closed', function() {
+  // On OS X it is common for applications and their menu bar
+  // to stay active until the user quits explicitly with Cmd + Q
   if (process.platform != 'darwin') {
     app.quit();
   }
@@ -18,8 +22,14 @@ app.on('window-all-closed', function () {
 // initialization and is ready to create browser windows.
 app.on('ready', function () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({ width: 800, height: 600 });
-
+  mainWindow = new BrowserWindow({
+    width: 800,
+    height: 600,
+    'min-width': 500,
+    'min-height': 200,
+    'accept-first-mouse': true,
+    'title-bar-style': 'hidden'
+  });
   // and load the index.html of the app.
   mainWindow.loadUrl('file://' + __dirname + '/index.html');
 
