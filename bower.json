@@ -1,0 +1,16 @@
+{
+  "name": "musicdb",
+  "version": "0.0.0",
+  "description": "Music Database application for CSE 412 project.",
+  "main": "app.js",
+  "author": {
+    "name": "Trent Rand",
+    "email": "contact@trentrand.com"
+  },
+  "dependencies": {
+    "angular": "~1.4.4",
+    "angular-material": "~0.10.1",
+    "angular-route": "~1.4.4",
+    "bootstrap": "~3.3.5"
+  }
+}

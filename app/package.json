@@ -1,0 +1,9 @@
+{
+  "name": "musicdb",
+  "version": "0.0.1",
+  "description": "Music Database application for CSE 412 project.",
+  "main": "main.js",
+  "dependencies": {
+    "mysql": "2.9.0"
+  }
+}
