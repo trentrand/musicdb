@@ -10,45 +10,37 @@ The application's build process depends on the following:
 ## Getting Started
  This cross-platform desktop application was built with [Angularjs](https://angularjs.org) and packaged using [Electron](https://electron.atom.io).
 
-## Install
----
+### Install
 
-Install dependencies.
+Install project dependencies
 
 ```
-	cd <path/to/project>
+	cd path/to/musicdb
 	npm install
+    bower install
 ```
 
-Install bower dependencies
+Install application dependencies
+
 
 ```
-	bower install
-```
-
-Install Application dependencies:
-
-Change directory to ```app``` folder, then run
-
-```
+    cd app
 	npm install
 ```
 
 
-#Run
----
+### Run
 
-Run your application by entering following command in your command prompt
+Run the application for development
 
 ```
-	cd <path/to/project>
-	gulp run
+	cd path/to/musicdb
+	gulp
 ```
 
-#Release
----
+### Release
 
-You can get the release version with following command:
+Generate an executable release installer
 
 ```
 gulp build-electron
