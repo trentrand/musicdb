@@ -15,8 +15,8 @@ The application's build process depends on the following:
 Install project dependencies
 
 ```
-	cd path/to/musicdb
-	npm install
+    cd path/to/musicdb
+    npm install
     bower install
 ```
 
@@ -25,7 +25,7 @@ Install application dependencies
 
 ```
     cd app
-	npm install
+    npm install
 ```
 
 
@@ -34,8 +34,8 @@ Install application dependencies
 Run the application for development
 
 ```
-	cd path/to/musicdb
-	gulp
+    cd path/to/musicdb
+    gulp
 ```
 
 ### Release
@@ -43,5 +43,5 @@ Run the application for development
 Generate an executable release installer
 
 ```
-gulp build-electron
+    gulp build-electron
 ```
