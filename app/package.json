@@ -4,6 +4,8 @@
   "description": "Music Database application for CSE 412 project.",
   "main": "main.js",
   "dependencies": {
-    "mysql": "2.9.0"
+    "fs": "0.0.1-security",
+    "mysql": "2.9.0",
+    "path": "^0.12.7"
   }
 }

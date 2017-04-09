@@ -12,7 +12,7 @@ angular.module('app').controller('songController', ['songService', '$q',
         //----------------------
 
         function getAllSongs() {
-            songService.getSong().then(function (results) {
+            songService.query('Library-Default.sql').then(function (results) {
                 // Once results are fetched, this .then() gets called
                 vm.rows = results;
                 vm.columnHeaders = Object.keys(vm.rows[0])
