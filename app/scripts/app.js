@@ -9,12 +9,12 @@
         'ngAnimate'
     ])
     .config(['$routeProvider', function ($routeProvider) {
-            $routeProvider.when('/', {
+            $routeProvider.when('/results/:query?', {
                 templateUrl: _templateBase + '/results.html' ,
-                controller: 'resultsController',
+                controller: 'ResultsController',
                 controllerAs: 'vm'
             });
-            $routeProvider.otherwise({ redirectTo: '/' });
+            $routeProvider.otherwise({ redirectTo: '/results/Library-Default.sql' });
         }
     ]);
 
