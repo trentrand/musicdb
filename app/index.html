@@ -52,32 +52,31 @@
         <!-- Your app's content goes inside .window-content -->
         <div class="window-content">
             <div class="pane-group">
-                <!-- TODO: Add .active class to appropriate sidebar element -->
                 <div class="pane pane-sidebar sidebar">
                     <nav class="nav-group">
                         <h5 class="nav-group-title">Library</h5>
 
-                        <a class="nav-group-item" ng-click="vm.showIndex('Library-Default.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('Library-Default')}" ng-click="vm.showIndex('Library-Default.sql')">
                             <span class="fa fa-list"></span>
                             &nbsp;All Music
                         </a>
-                        <a class="nav-group-item" ng-click="vm.showIndex('Library-Band.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('Library-Band')}" ng-click="vm.showIndex('Library-Band.sql')">
                             <span class="fa fa-user"></span>
                             &nbsp;Band
                         </a>
-                        <a class="nav-group-item" ng-click="vm.showIndex('Library-Product.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('Library-Product')}" ng-click="vm.showIndex('Library-Product.sql')">
                             <span class="fa fa-circle"></span>
                             &nbsp;Product
                         </a>
-                        <a class="nav-group-item" ng-click="vm.showIndex('Library-Song.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('Library-Song')}" ng-click="vm.showIndex('Library-Song.sql')">
                             <span class="fa fa-quote-right"></span>
                             &nbsp;Song
                         </a>
-                        <a class="nav-group-item" ng-click="vm.showIndex('Library-Writer.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('Library-Writer')}" ng-click="vm.showIndex('Library-Writer.sql')">
                             <span class="fa fa-pencil"></span>
                             &nbsp;Writer
                         </a>
-                        <a class="nav-group-item" ng-click="vm.showIndex('Library-Year.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('Library-Year')}" ng-click="vm.showIndex('Library-Year.sql')">
                             <!-- TODO: Library-Year.sql -->
                             <span class="fa fa-calendar"></span>
                             &nbsp;Year
@@ -86,36 +85,36 @@
 
                     <nav class="nav-group">
                         <h5 class="nav-group-title">Statistics</h5>
-                        <a class="nav-group-item" ng-click="vm.showIndex('Statistics-Band.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('Statistics-Band')}" ng-click="vm.showIndex('Statistics-Band.sql')">
                             <span class="fa fa-users"></span>
                             &nbsp;Band
                         </a>
-                        <a class="nav-group-item" ng-click="vm.showIndex('Statistics-Decade.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('Statistics-Decade')}" ng-click="vm.showIndex('Statistics-Decade.sql')">
                             <span class="fa fa-music"></span>
                             &nbsp;Decade
                         </a>
-                        <a class="nav-group-item" ng-click="vm.showIndex('Statistics-Genre.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('Statistics-Genre')}" ng-click="vm.showIndex('Statistics-Genre.sql')">
                             <span class="fa fa-music"></span>
                             &nbsp;Genre
                         </a>
-                        <a class="nav-group-item" ng-click="vm.showIndex('Statistics-ProductType.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('Statistics-ProductType')}" ng-click="vm.showIndex('Statistics-ProductType.sql')">
                             <span class="fa fa-music"></span>
                             &nbsp;Product Type
                         </a>
-                        <a class="nav-group-item" ng-click="vm.showIndex('Statistics-Writer.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('Statistics-Writer')}" ng-click="vm.showIndex('Statistics-Writer.sql')">
                             <span class="fa fa-music"></span>
                             &nbsp;Writer
                         </a>
                     </nav>
                     <nav class="nav-group">
                         <h5 class="nav-group-title">Playlists</h5>
-                        <a class="nav-group-item" ng-click="vm.showIndex('List-1980s.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('List-1980s')}" ng-click="vm.showIndex('List-1980s.sql')">
                             <span class="fa fa-spin fa-cog"></span> &nbsp;1980s
                         </a>
-                        <a class="nav-group-item" ng-click="vm.showIndex('List-Comedy.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('List-Comedy')}" ng-click="vm.showIndex('List-Comedy.sql')">
                             <span class="fa fa-spin fa-cog"></span> &nbsp;Comedy
                         </a>
-                        <a class="nav-group-item" ng-click="vm.showIndex('List-Poison.sql')">
+                        <a class="nav-group-item" ng-class="{active: isActive('List-Poison')}" ng-click="vm.showIndex('List-Poison.sql')">
                             <span class="fa fa-spin fa-cog"></span> &nbsp;Poison
                         </a>
                     </nav>
