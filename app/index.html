@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="app">
+<html lang="en" ng-app="app" ng-controller="IndexController as vm">
 
 <head>
-    <title>Song Manager</title>
+    <title>Music Database Manager</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
@@ -56,84 +56,71 @@
                 <div class="pane pane-sidebar sidebar">
                     <nav class="nav-group">
                         <h5 class="nav-group-title">Library</h5>
-                        <span class="nav-group-item active">
+
+                        <a class="nav-group-item" ng-click="vm.showIndex('Library-Default.sql')">
                             <span class="fa fa-list"></span>
-                            <!-- TODO: Library-Default.sql -->
                             &nbsp;All Music
-                        </span>
-                        <span class="nav-group-item">
-                            <!-- TODO: Library-Band.sql -->
+                        </a>
+                        <a class="nav-group-item" ng-click="vm.showIndex('Library-Band.sql')">
                             <span class="fa fa-user"></span>
                             &nbsp;Band
-                        </span>
-                        <span class="nav-group-item">
+                        </a>
+                        <a class="nav-group-item" ng-click="vm.showIndex('Library-Product.sql')">
                             <span class="fa fa-circle"></span>
-                            <!-- TODO: Library-Product.sql -->
                             &nbsp;Product
-                        </span>
-                        <span class="nav-group-item">
+                        </a>
+                        <a class="nav-group-item" ng-click="vm.showIndex('Library-Song.sql')">
                             <span class="fa fa-quote-right"></span>
-                            <!-- TODO: Library-Song.sql -->
                             &nbsp;Song
-                        </span>
-                        <span class="nav-group-item">
+                        </a>
+                        <a class="nav-group-item" ng-click="vm.showIndex('Library-Writer.sql')">
                             <span class="fa fa-pencil"></span>
-                            <!-- TODO: Library-Writer.sql -->
                             &nbsp;Writer
-                        </span>
-                        <span class="nav-group-item">
+                        </a>
+                        <a class="nav-group-item" ng-click="vm.showIndex('Library-Year.sql')">
                             <!-- TODO: Library-Year.sql -->
                             <span class="fa fa-calendar"></span>
                             &nbsp;Year
-                        </span>
+                        </a>
                     </nav>
 
                     <nav class="nav-group">
                         <h5 class="nav-group-title">Statistics</h5>
-                        <span class="nav-group-item">
-                            <!-- TODO: Statistics-Band.sql -->
+                        <a class="nav-group-item" ng-click="vm.showIndex('Statistics-Band.sql')">
                             <span class="fa fa-users"></span>
                             &nbsp;Band
-                        </span>
-                        <span class="nav-group-item">
+                        </a>
+                        <a class="nav-group-item" ng-click="vm.showIndex('Statistics-Decade.sql')">
                             <span class="fa fa-music"></span>
-                            <!-- TODO: Statistics-Decade.sql -->
                             &nbsp;Decade
-                        </span>
-                        <span class="nav-group-item">
+                        </a>
+                        <a class="nav-group-item" ng-click="vm.showIndex('Statistics-Genre.sql')">
                             <span class="fa fa-music"></span>
-                            <!-- TODO: Statistics-Genre.sql -->
                             &nbsp;Genre
-                        </span>
-                        <span class="nav-group-item">
+                        </a>
+                        <a class="nav-group-item" ng-click="vm.showIndex('Statistics-ProductType.sql')">
                             <span class="fa fa-music"></span>
-                            <!-- TODO: Statistics-ProductType.sql -->
                             &nbsp;Product Type
-                        </span>
-                        <span class="nav-group-item">
+                        </a>
+                        <a class="nav-group-item" ng-click="vm.showIndex('Statistics-Writer.sql')">
                             <span class="fa fa-music"></span>
-                            <!-- TODO: Statistics-Writer.sql -->
                             &nbsp;Writer
-                        </span>
+                        </a>
                     </nav>
                     <nav class="nav-group">
                         <h5 class="nav-group-title">Playlists</h5>
-                        <span class="nav-group-item">
-                            <!-- TODO: List-1980s.sql -->
+                        <a class="nav-group-item" ng-click="vm.showIndex('List-1980s.sql')">
                             <span class="fa fa-spin fa-cog"></span> &nbsp;1980s
-                        </span>
-                        <span class="nav-group-item">
-                            <!-- TODO: List-Comedy.sql -->
+                        </a>
+                        <a class="nav-group-item" ng-click="vm.showIndex('List-Comedy.sql')">
                             <span class="fa fa-spin fa-cog"></span> &nbsp;Comedy
-                        </span>
-                        <span class="nav-group-item">
-                            <!-- TODO: List-Poison.sql -->
+                        </a>
+                        <a class="nav-group-item" ng-click="vm.showIndex('List-Poison.sql')">
                             <span class="fa fa-spin fa-cog"></span> &nbsp;Poison
-                        </span>
+                        </a>
                     </nav>
                 </div>
                 <div class="pane">
-                    <!-- TODO: dynamic query table on sidebar clicks -->
                     <ng-view></ng-view>
                 </div>
             </div>
@@ -148,6 +135,7 @@
     <!-- build:app scripts/app.js -->
     <script src="./scripts/app.js"></script>
     <script src="./scripts/databaseService.js"></script>
+    <script src="./scripts/indexController.js"></script>
     <script src="./scripts/resultsController.js"></script>
     <!-- endbuild -->
     <script>
