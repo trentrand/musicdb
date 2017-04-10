@@ -10,8 +10,8 @@
     ])
     .config(['$routeProvider', function ($routeProvider) {
             $routeProvider.when('/', {
-                templateUrl: _templateBase + '/song/song.html' ,
-                controller: 'songController',
+                templateUrl: _templateBase + '/results.html' ,
+                controller: 'resultsController',
                 controllerAs: 'vm'
             });
             $routeProvider.otherwise({ redirectTo: '/' });

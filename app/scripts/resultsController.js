@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('app').controller('songController', ['songService', '$q',
-    function(songService, $q) {
+angular.module('app').controller('resultsController', ['databaseService', '$q',
+    function(databaseService, $q) {
         var vm = this;
 
         // Load initial data
@@ -12,7 +12,7 @@ angular.module('app').controller('songController', ['songService', '$q',
         //----------------------
 
         function getAllSongs() {
-            songService.query('Library-Default.sql').then(function (results) {
+            databaseService.query('Library-Default.sql').then(function (results) {
                 // Once results are fetched, this .then() gets called
                 vm.rows = results;
                 vm.columnHeaders = Object.keys(vm.rows[0])
@@ -29,12 +29,12 @@ angular.module('app').controller('songController', ['songService', '$q',
 
         function saveSong($event) {
             if (vm.selected != null && vm.selected.songID != null) {
-                songService.update(vm.selected).then(function (affectedRows) {
+                databaseService.update(vm.selected).then(function (affectedRows) {
                 });
             }
             else {
                 //vm.selected.songID = new Date().getSeconds();
-                songService.create(vm.selected).then(function (affectedRows) {
+                databaseService.create(vm.selected).then(function (affectedRows) {
                 });
             }
         }
@@ -49,7 +49,7 @@ angular.module('app').controller('songController', ['songService', '$q',
                 vm.getAllSongs();
             }
             else {
-                songService.getByName(vm.filterText).then(function (song) {
+                databaseService.getByName(vm.filterText).then(function (song) {
                     vm.song = [].concat(song);
                     vm.selected = song[0];
                 });
