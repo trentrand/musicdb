@@ -1,7 +1,7 @@
 {
   "name": "musicdb",
   "version": "0.0.0",
-  "description": "Music Database application for CSE 412 project.",
+  "description": "Music Database application",
   "main": "app.js",
   "author": {
     "name": "Trent Rand",
