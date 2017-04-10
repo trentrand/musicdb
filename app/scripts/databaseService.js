@@ -19,7 +19,7 @@
 
     function DatabaseService($q) {
         return {
-            query: query,
+            query: query
         };
 
         function query(queryFile) {

@@ -10,6 +10,8 @@ The application's build process depends on the following:
 ## Getting Started
  This cross-platform desktop application was built with [Angularjs](https://angularjs.org) and packaged using [Electron](https://electron.atom.io).
 
+ The user should specify their database credentials inside the connection object found in the databaseService file.
+
 ### Install
 
 Install project dependencies

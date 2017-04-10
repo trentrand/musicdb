@@ -4,56 +4,75 @@ angular.module('app').controller('resultsController', ['databaseService', '$q',
     function(databaseService, $q) {
         var vm = this;
 
-        // Load initial data
-        getAllSongs();
+        // Load default view
+        getAllMusicIndex();
 
         //----------------------
         // Database Functions
         //----------------------
 
-        function getAllSongs() {
-            databaseService.query('Library-Default.sql').then(function (results) {
+        function queryIndex(fileName) {
+            databaseService.query(fileName).then(function (results) {
                 // Once results are fetched, this .then() gets called
                 vm.rows = results;
                 vm.columnHeaders = Object.keys(vm.rows[0])
             });
         }
 
-        function selectSong(song, index) {
-            vm.selected = angular.isNumber(song) ? vm.song[song] : song;
-            vm.selectedIndex = angular.isNumber(song) ? song: index;
+        function getBandIndex() {
+            queryIndex('Library-Band.sql');
         }
 
-        function deleteSong($event) {
+        function getAllMusicIndex() {
+            queryIndex('Library-Default.sql');
         }
 
-        function saveSong($event) {
-            if (vm.selected != null && vm.selected.songID != null) {
-                databaseService.update(vm.selected).then(function (affectedRows) {
-                });
-            }
-            else {
-                //vm.selected.songID = new Date().getSeconds();
-                databaseService.create(vm.selected).then(function (affectedRows) {
-                });
-            }
+        function getProductIndex() {
+            queryIndex('Library-Product.sql');
         }
 
-        function createSong() {
-            vm.selected = {};
-            vm.selectedIndex = null;
+        function getSongIndex() {
+            queryIndex('Library-Song.sql');
         }
 
-        function filterSong() {
-            if (vm.filterText == null || vm.filterText == "") {
-                vm.getAllSongs();
-            }
-            else {
-                databaseService.getByName(vm.filterText).then(function (song) {
-                    vm.song = [].concat(song);
-                    vm.selected = song[0];
-                });
-            }
+        function getWriterIndex() {
+            queryIndex('Library-Writer.sql');
+        }
+
+        function get1980sPlaylistIndex() {
+            queryIndex('List-1980s.sql');
+        }
+
+        function getComedyPlaylistIndex() {
+            queryIndex('List-Comedy.sql');
+        }
+
+        function getPoisonPlaylistIndex() {
+            queryIndex('List-Poison.sql');
+        }
+
+        function getBandStatisticsIndex() {
+            queryIndex('Statistics-Band.sql');
+        }
+
+        function getDecadeStatisticsIndex() {
+            queryIndex('Statistics-Decade.sql');
+        }
+
+        function getGenreStatisticsIndex() {
+            queryIndex('Statistics-Genre.sql');
+        }
+
+        function getProductTypeStatisticsIndex() {
+            queryIndex('Statistics-ProductType.sql');
+        }
+
+        function getWriterStatisticsIndex() {
+            queryIndex('Statistics-Writer.sql');
+        }
+
+        function getYearStatisticsIndex() {
+            queryIndex('Statistics-Year.sql');
         }
     }
 ]);
