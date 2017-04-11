@@ -32,7 +32,8 @@ FROM
 	LEFT JOIN band		AS tblC	ON tblB.bandID = tblC.bandID
 
 WHERE
-	10 * FLOOR(tblA.songYearReleased / 10) = 1980
+	tblA.songYearReleased >= 1980 AND
+	tblA.songYearReleased < 1990
 
 ORDER BY
 	tblA.songName
