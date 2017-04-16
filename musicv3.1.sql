@@ -445,6 +445,9 @@ DELIMITER ;
 -- Dumping data for table `appear`
 --
 
+create index id_index on song(songYearReleased) using btree;
+
+/*ALTER TABLE song DROP INDEX id_index;*/
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
