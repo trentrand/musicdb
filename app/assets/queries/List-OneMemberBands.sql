@@ -1,23 +1,23 @@
 /*
 	FILE
     List-1MemberBands
-    
+
     DESCRIPION
     Returns the table for the 1-member aands lists.
-    
+
     AUTHORS
     Arsh Padda
     apadda@asu.edu
-    
+
     Devin Walz
     dwalz@asu.edu
-    
+
     COURSE
     CSE 412: Database Management, Spring 2017
-    
+
     ASSIGNMENT
     Group Project - Phase 3
-    
+
     DATE MODIFIED
     2017/04/12
 */

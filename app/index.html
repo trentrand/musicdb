@@ -93,6 +93,10 @@
                             <span class="fa fa-music"></span>
                             &nbsp;Writer
                         </a>
+                        <a class="nav-group-item" ng-class="{active: isActive('Statistics-FoundedBands')}" ng-click="vm.showIndex('Statistics-FoundedBands.sql')">
+                            <span class="fa fa-music"></span>
+                            &nbsp;Band Founders
+                        </a>
                     </nav>
                     <nav class="nav-group">
                         <h5 class="nav-group-title">Lists</h5>
@@ -104,6 +108,9 @@
                         </a>
                         <a class="nav-group-item" ng-class="{active: isActive('List-Poison')}" ng-click="vm.showIndex('List-Poison.sql')">
                             <span class="fa fa-spin fa-cog"></span> &nbsp;Poison
+                        </a>
+                        <a class="nav-group-item" ng-class="{active: isActive('List-OneMemberBands')}" ng-click="vm.showIndex('List-OneMemberBands.sql')">
+                            <span class="fa fa-spin fa-cog"></span> &nbsp;One Man Bands
                         </a>
                     </nav>
                 </div>
