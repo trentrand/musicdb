@@ -30,6 +30,9 @@ FROM
     LEFT JOIN band		AS tblB ON tblA.bandID = tblB.bandID
     LEFT JOIN artist	AS tblC ON tblA.artistID = tblC.artistID
 
+WHERE
+	tblB.bandName LIKE ?
+
 ORDER BY
 	tblB.bandName
     , tblC.artistName
