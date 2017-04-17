@@ -5,8 +5,7 @@
     var _templateBase = './scripts';
 
     angular.module('app', [
-        'ngRoute',
-        'ngAnimate'
+        'ngRoute'
     ])
     .config(['$routeProvider', function ($routeProvider) {
             $routeProvider.when('/results/:query?', {
