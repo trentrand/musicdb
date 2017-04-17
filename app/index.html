@@ -36,9 +36,9 @@
                     </button>
                 </div>
 
-                <input class="btn btn-default btn-dropdown pull-right js-popover-trigger fa-placholder" placeholder="&#xF002;  Search">
-                <span class="fa fa-"></span>
-                </button>
+                <div class="pull-right" ng-show="vm.showSearch()">
+                    <input class="btn btn-default js-popover-trigger fa-placholder" placeholder="&#xF002;  Search {{ vm.searchField }}" ng-model="currentSearch"></input>
+                </div>
             </div>
         </header>
 
