@@ -74,13 +74,21 @@ angular.module('app').controller('ResultsController', ['databaseService', '$q', 
                 productYearReleased: product.yearReleased,
                 productGenre: product.genre
             }
+            vm.args5 = {
+                songID: songId,
+                songName: product.product,
+                songYearReleased: product.yearReleased,
+                songGenre: product.genre,
+                songLength: '05:00'
+            }
 
             if (vm.newProduct.product != undefined && vm.newProduct.band != undefined && vm.newProduct.type != undefined && vm.newProduct.genre != undefined && vm.newProduct.yearReleased != undefined){
                 var _fileName = 'Library-Product-Insert.sql';
-                databaseService.queryWithArgs('INSERT INTO `create` SET ?;', vm.args1);
-                databaseService.queryWithArgs('INSERT INTO `band` SET ?;', vm.args2);
-                databaseService.queryWithArgs('INSERT INTO `appear` SET ?;', vm.args3);
                 databaseService.queryWithArgs('INSERT INTO `product` SET ?;', vm.args4);
+                databaseService.queryWithArgs('INSERT INTO `song` SET ?;', vm.args5);
+                databaseService.queryWithArgs('INSERT INTO `band` SET ?;', vm.args2);
+                databaseService.queryWithArgs('INSERT INTO `create` SET ?;', vm.args1);
+                databaseService.queryWithArgs('INSERT INTO `appear` SET ?;', vm.args3);
             }
 
             // Reload index view to show new result and clear add field
