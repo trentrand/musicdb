@@ -1,5 +1,8 @@
 # Music Database Manager
-Music database management application connected to MySql database.
+Music database management application connected to a MySql database. 
+
+![img](preview.png)
+> Created with AngularJS, Electron and PhotonKit.
 
 ## Dependencies
 
