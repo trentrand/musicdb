@@ -9,3 +9,11 @@
     left: 175px;
     position: fixed;
 }
+
+.inline-form {
+    padding: 0px 0px 0px 0px !important;
+}
+
+.error {
+    border:2px solid red !important;
+}

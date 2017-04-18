@@ -20,7 +20,8 @@
     function DatabaseService($q) {
         return {
             query: query,
-            queryParam: queryParam
+            queryParam: queryParam,
+            queryWithArgs: queryWithArgs
         };
 
         function query(queryFile) {
@@ -44,15 +45,23 @@
             fs.readFile(root+queryFile, 'utf8', function(err, data){
                 if (!err){
                     var query = data.replace(/{{[ ]{0,2}([a-zA-Z0-9\.\_\-]*)[ ]{0,2}}}/g, function(str, mch){ return data[mch]});
-                    connection.query(query, param, function (err, rows) {
+                    var query = connection.query(query, param, function (err, rows) {
                         if (err) deferred.reject(err);
                         deferred.resolve(rows);
                     });
+                    console.log(query);
                 } else {
                     if (err) deferred.reject(err);
                 }
             });
             return deferred.promise;
+        }
+        function queryWithArgs(queryString, args) {
+                var query = mysql.format(queryString.replace(/{{[ ]{0,2}([a-zA-Z0-9\.\_\-]*)[ ]{0,2}}}/g, function(str, mch){ return data[mch]}), args);
+                query = query.replace(/{{[ ]{0,2}([a-zA-Z0-9\.\_\-]*)[ ]{0,2}}}/g, function(str, mch){ return data[mch]});
+                connection.query(query, function (error, results, fields) {
+                  if (error) throw error;
+                });
         }
     }
 })();

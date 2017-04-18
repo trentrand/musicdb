@@ -3,8 +3,10 @@
 angular.module('app').controller('IndexController', ['$scope', '$rootScope', '$location',
     function($scope, $rootScope, $location) {
         var vm = this;
+        
         // Default index is All Music, as defined in router .otherwise()
         vm.currentIndex = 'Library-Default';
+        $location.path('Library-Default');
 
         $scope.isActive = function (viewLocation) {
             return viewLocation == vm.currentIndex

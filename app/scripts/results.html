@@ -1,10 +1,17 @@
-<table class="table-striped">
+<table class="table table-striped table-bordered">
     <thead>
         <tr>
             <th ng-repeat="column in vm.columnHeaders">{{ column }}</th>
         </tr>
     </thead>
     <tbody>
+        <tr ng-show="location.$$path.includes('Library-Product')">
+            <td><input type="text" class="form-control inline-form" ng-class="{error: vm.newProduct.product.length == undefined}" ng-model="vm.newProduct.product" required/></td>
+            <td><input type="text" class="form-control inline-form" ng-class="{error: vm.newProduct.band.length == undefined}" ng-model="vm.newProduct.band" required/></td>
+            <td><input type="text" class="form-control inline-form" ng-class="{error: vm.newProduct.type.length == undefined}" ng-model="vm.newProduct.type" required/></td>
+            <td><input type="text" class="form-control inline-form" ng-class="{error: vm.newProduct.genre.length == undefined}" ng-model="vm.newProduct.genre" required/></td>
+            <td><input type="number" class="form-control inline-form" ng-class="{error: !vm.newProduct.yearReleased > 0}" ng-model="vm.newProduct.yearReleased" required ng-keydown="$event.which === 13 && vm.addProduct()"/></td>
+        </tr>
         <tr ng-repeat="row in vm.rows">
             <td ng-repeat="value in row">{{ value }}</td>
         </tr>
