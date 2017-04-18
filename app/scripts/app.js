@@ -13,7 +13,7 @@
                 controller: 'ResultsController',
                 controllerAs: 'vm'
             });
-            $routeProvider.otherwise({ redirectTo: '/results/Library-Default.sql' });
+            $routeProvider.otherwise({ redirectTo: '/results/Library-AllMusic.sql' });
         }
     ]);
 

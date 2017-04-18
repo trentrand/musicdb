@@ -5,3 +5,4 @@ node_modules/*
 resources/windows
 resources/osx
 resources/linux
+**/.icloud

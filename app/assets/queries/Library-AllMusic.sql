@@ -1,20 +1,20 @@
 /*
 	FILE
-    Library-Default.sql
-    
+    Library-AllMusic.sql
+
     DESCRIPION
     Returns the table for the default library.
-    
+
     AUTHOR
     Devin Walz
     dwalz@asu.edu
-    
+
     COURSE
     CSE 412: Database Management, Spring 2017
-    
+
     ASSIGNMENT
     Group Project - Phase 3
-    
+
     DATE MODIFIED
     2017/03/29
 */
@@ -39,4 +39,3 @@ ORDER BY
     , tblB.TrackNumber
     , tblA.songName
     , tblA.songLength
-	

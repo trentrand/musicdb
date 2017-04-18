@@ -1,9 +1,9 @@
 /*
 	FILE
-    Library-Default.sql
+    Library-AllMusic.sql
 
     DESCRIPION
-    Returns the table for the default library.
+    Returns the table for the AllMusic library.
 
     AUTHOR
     Devin Walz
