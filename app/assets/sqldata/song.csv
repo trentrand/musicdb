@@ -1,0 +1,446 @@
+songID,songName,songYearReleased,songGenre,songLength
+S00081,Trash Day,2003,Comedy,03:12
+S00502,Buckingham Blues,1983,Comedy,03:13
+S00617,The Reflex,1983,Rock,05:29
+S00659,It Goes On,1981,Rock,03:52
+S00706,Cable TV,1985,Comedy,03:38
+S01334,I Want Action,1986,Rock,03:05
+S01370,Nobody But Me,1997,Rock,03:05
+S01397,Lithium,2006,Rock,03:44
+S02375,My Baby's in Love with Eddie Vedder,1999,Comedy,03:25
+S02555,So Little Kindess,1996,Rock,04:14
+S02715,The Girl Is Mine,1982,Pop,03:43
+S03214,Every Rose Has Its Thorn,1988,Rock,04:17
+S03520,I Take the Dice,1983,Rock,03:18
+S04073,Melanie,1988,Comedy,03:58
+S04320,Princes of the Universe,1986,Rock,03:32
+S04333,Look but You Can't Touch,1988,Rock,03:25
+S04729,Danger on the Track,1986,Rock,03:45
+S04908,The World Is New,1996,Rock,02:11
+S04992,George of the Jungle,1985,Comedy,01:05
+S05058,Pretty Fly for a Rabbi,1999,Comedy,03:02
+S05184,Stuck in a Closet with Vanna White,1988,Comedy,04:58
+S05523,Off the Wall,1980,Pop,04:05
+S06352,Billie Jean,1982,Pop,04:54
+S06362,Oceans,2011,Rock,03:38
+S06962,Make Believe,1982,Rock,03:43
+S07020,Talk Dirty to Me,1986,Rock,03:44
+S07570,Get Up and Go,1990,Rock,03:17
+S07744,I Remember Larry,1996,Comedy,03:56
+S07792,Like a Baby,1984,Pop,04:12
+S07833,Bank on Your Love,1984,Pop,04:18
+S07839,The Life of the Party,1995,Pop,02:34
+S07990,What You See Is What You Get,1999,Rock,03:18
+S08562,Wanna Be Startin' Somethin',1982,Pop,06:04
+S08921,Our Lips Are Sealed,1990,Rock,02:44
+S09196,Sugar Daddy,1995,Pop,02:32
+S09421,Girls Just Want to Have Lunch,1985,Comedy,02:48
+S09479,Strange Days of Uncle Jack,1990,Rock,01:40
+S09731,One More Night,1985,Pop,04:47
+S09844,I Want a New Duck,1985,Comedy,03:04
+S10338,In Hollywood (Everybody is a Star),1994,Pop,04:53
+S10562,I Can't Watch This,1992,Comedy,03:31
+S10650,Mothers Talk,1985,Rock,05:09
+S10692,Out of Touch,1984,Pop,04:21
+S11230,Ricky,1983,Comedy,02:36
+S11622,Credit Card Baby,1984,Pop,05:08
+S11939,Valley of Lost Souls,1990,Rock,03:58
+S11946,I'll Be There,1995,Pop,03:57
+S12457,Thriller,1982,Pop,05:58
+S12698,I Won't Hold You Back,1982,Rock,04:53
+S12833,Helpless Automaton,1981,Rock,03:23
+S13007,Y.M.C.A.,1994,Pop,04:46
+S13300,Call Me When You're Sober,2006,Rock,03:34
+S13397,Why Does This Always Happen to Me,2003,Comedy,04:52
+S13610,Tea in the Sahara,1983,Rock,04:11
+S13635,(Flesh & Blood) Sacrifice,1990,Rock,04:40
+S14245,Sick,2011,Rock,03:30
+S14425,Girls Just Want to Have Fun,1983,Pop,03:51
+S14636,It's All About the Pentiums,1999,Comedy,03:34
+S15220,Tearin' Down the Walls,1988,Rock,03:50
+S15301,Everything She Wants,1984,Pop,05:01
+S15377,Imaginary,2003,Rock,04:16
+S15402,Girls on Film,1981,Rock,03:32
+S16220,We Got the Beat,1990,Rock,02:30
+S16309,One More Minute,1985,Comedy,04:04
+S16537,The Lady in My Life,1982,Pop,04:59
+S16805,Victims,1983,Rock,04:55
+S17179,Wrap It Up,1983,Pop,03:33
+S17360,Get on the Floor,1979,Pop,04:39
+S17687,Off the Wall,1979,Pop,04:06
+S17782,Wake Me Up Before You Go-Go,1984,Pop,03:50
+S18121,Pretty in Pink,1981,Rock,03:59
+S18182,The Alternative Polka,1996,Comedy,04:50
+S18580,To the Shore,1981,Rock,03:51
+S18765,Human Nature,1982,Pop,04:07
+S18945,When It's Over,1981,Rock,05:08
+S18968,People Just Love to Play with Words,1981,Rock,03:33
+S19254,Mr. Jones,1981,Rock,04:03
+S20286,Africa,1982,Rock,04:55
+S20742,Superspy,1996,Rock,02:46
+S20881,I Could Give You (A Mirror),1983,Pop,03:51
+S20894,"Want Some, Need Some",1986,Rock,03:39
+S21303,It's Your Life,1981,Rock,04:05
+S21880,San Francisco (You've Got Me),1994,Pop,05:19
+S22384,Angry White Boy Polka,2003,Comedy,05:04
+S22524,Get It Together,1995,Pop,02:48
+S22536,Shadows on Your Side,1983,Rock,04:03
+S22762,Mistaken,1999,Rock,03:24
+S22842,Gangs in the Street,1981,Rock,04:35
+S23070,So Run Down,1981,Rock,02:51
+S23197,I Will Survive,1978,Pop,03:15
+S23235,Black Money,1983,Rock,05:19
+S23486,The Night Santa Went Crazy,1996,Comedy,04:03
+S23575,Haunted,2003,Rock,03:05
+S24037,Bob,2003,Comedy,02:29
+S24041,When I Fall in Love,1987,Pop,02:59
+S24047,Holding On,1999,Rock,03:26
+S24057,It's a Feeling,1982,Rock,03:05
+S24101,Crank Call,1983,Rock,03:56
+S24299,Union of the Snake,1983,Rock,04:20
+S24352,Another One Rides the Bus,1983,Comedy,02:40
+S24467,It Would Take a Strong Strong Man,1987,Pop,03:39
+S24720,Carrie,1986,Rock,04:30
+S24856,Stuck with You,1996,Rock,04:26
+S24869,Baby Be Mine,1982,Pop,04:21
+S25014,The Love You Save,1995,Pop,03:04
+S25302,Angry Situation,1999,Rock,03:38
+S25619,It's So Cruel,1982,Rock,05:20
+S25858,Couch Potato,2003,Comedy,04:18
+S26063,Take Me Home,1985,Pop,05:51
+S26443,Key West,1994,Pop,05:44
+S26696,Polka Your Eyes Out,1992,Comedy,03:50
+S26713,100 Years from Now,1996,Rock,03:46
+S26772,Shout,1985,Rock,06:32
+S27354,(Do Not) Stand in the Shadows,1983,Rock,03:10
+S27419,Girlfriend,1979,Pop,03:06
+S27472,P.Y.T. (Pretty Young Thing),1982,Pop,03:58
+S27568,Everything You Know Is Wrong,1996,Comedy,03:48
+S27666,The Other Side,2011,Rock,04:05
+S27750,Love Calling,1982,Rock,04:48
+S27988,Ride the Wind,1990,Rock,03:50
+S28510,Sound of Thunder,1981,Rock,04:07
+S28514,Head Over Heels,1990,Rock,03:36
+S28527,Germs,1999,Comedy,04:38
+S28581,Under 21,1996,Rock,02:40
+S28777,Of Crime and Passion,1983,Rock,03:50
+S28962,Turn to You,1990,Rock,03:50
+S29147,Never Can Say Goodbye,1995,Pop,03:00
+S29161,Gimme the Prize (Kurgan's Theme),1986,Rock,04:34
+S29701,Careless Memories,1981,Rock,03:55
+S29774,Billie Jean,1983,Pop,04:54
+S30102,Your Friend,1999,Rock,03:42
+S30382,Snow White Queen,2006,Rock,04:22
+S30399,It's Your Thing,1995,Pop,03:41
+S31005,One Vision,1986,Rock,05:10
+S31195,"Congo Man (Reprise of ""Love Calling"")",1982,Rock,01:08
+S31251,Never Gonna Give You Up,1987,Pop,03:32
+S31370,Daytime Drama,1983,Rock,04:02
+S31415,Catch My Fall,1983,Rock,03:57
+S31477,Beat It,1982,Pop,04:18
+S31670,Velvet Elvis,1988,Comedy,04:30
+S32035,Good Love,1988,Rock,02:51
+S32093,Like You,2006,Rock,04:16
+S32216,Mercenary,1990,Rock,03:35
+S32550,Beat It,1983,Rock,04:18
+S33189,Fat,1988,Comedy,03:37
+S33216,Jennifer,1983,Pop,05:06
+S33301,Inside out,1985,Pop,05:14
+S33463,#1 Bad Boy,1986,Rock,03:14
+S33469,Don't Give Up an Inch,1990,Rock,03:43
+S33589,Your Horoscope for Today,1999,Comedy,03:59
+S33651,My Last Breath,2003,Rock,04:07
+S34259,"Come On, Come On",1982,Rock,04:00
+S34501,Dumb Waiters,1981,Rock,05:09
+S34811,The Weird Al Show Theme,1999,Comedy,01:14
+S34924,Lookin' Through the Windows,1995,Pop,03:38
+S35040,The Final Countdown,1986,Rock,05:12
+S35045,Mama's Pearl,1995,Pop,03:12
+S35200,Ninja,1986,Rock,03:46
+S35285,It's Alright,1996,Rock,03:04
+S35393,"Go West (12"" Version)",1994,Pop,06:53
+S35790,Spam,1997,Rock,02:28
+S36366,Only You Know and I Know,1985,Pop,04:20
+S36508,ABC,1995,Pop,02:58
+S36518,Dance on Your Knees,1984,Pop,01:27
+S36671,No Love,1999,Rock,04:48
+S36770,Hole in the Wall,1982,Rock,04:14
+S36923,I Want You Back,1995,Pop,02:58
+S37155,Lucky Ones,1981,Rock,03:51
+S37462,The Only One,2006,Rock,04:40
+S37631,Never Go Back,2011,Rock,04:27
+S37809,It's Your Thing (The J5 in '95 Extended Remix),1995,Pop,05:57
+S38101,Ball and Chain,1990,Rock,04:22
+S38732,Let Me Go to the Show,1986,Rock,02:45
+S38783,Who's Lovin' You,1995,Pop,04:01
+S39295,I Wanna Be Where You Are,1995,Pop,02:57
+S39507,Working for the Weekend,1981,Rock,03:42
+S39524,The Walk,1983,Pop,04:40
+S39691,Whisper,2003,Rock,05:27
+S39981,Pain Is So Close to Pleasure,1986,Rock,04:21
+S40052,Vacation,1990,Rock,03:00
+S40133,Come on Eileen,1997,Rock,04:11
+S40268,Some Things Are Better Left Unsaid,1984,Pop,05:26
+S40510,Planet Earth,1981,Rock,04:03
+S40643,Nothin' but a Good Time,1988,Rock,03:43
+S41330,Sweet Sacrifice,2006,Rock,03:05
+S41506,Bad to Be Good,1988,Rock,04:03
+S41561,You Make Me,1988,Comedy,03:06
+S41737,Listen,1985,Rock,06:48
+S41824,Turn It Up,1999,Rock,03:03
+S41911,Bite Me,1992,Comedy,00:06
+S42258,Gump,1996,Comedy,02:11
+S42425,Take Me to the Top,1981,Rock,06:13
+S43637,The Change,2011,Rock,03:42
+S43852,Such a Groovy Guy,1983,Comedy,03:02
+S43928,Got to Be There,1995,Pop,03:23
+S43953,When I Was Your Age,1992,Comedy,04:35
+S44173,Spam,1996,Rock,02:23
+S44282,"I am Love, Pts. 1 and 2",1995,Pop,07:28
+S44389,I'm So Sick of You,1996,Comedy,03:26
+S44718,Possession Obsession,1984,Pop,04:36
+S44967,Maybe Tomorrow,1995,Pop,04:46
+S45015,Your Mama Don't Dance,1988,Rock,02:59
+S45087,Daddy's Home,1995,Pop,03:03
+S45733,Sorry My Friend,1996,Rock,03:12
+S46196,I'm the Only One,1990,Rock,03:33
+S46253,One More Try,1999,Rock,01:06
+S46493,If This Is It,1996,Rock,03:52
+S46744,Something to Believe In,1990,Rock,05:28
+S47287,Gotta Boogie,1983,Comedy,02:14
+S47305,Lust to Love,1990,Rock,04:03
+S47797,Good Old Days,1988,Comedy,03:21
+S47875,A Complicated Song,2003,Comedy,03:39
+S47879,Airline Amy,1992,Comedy,03:50
+S48360,Hot in the City,1982,Rock,03:40
+S48438,Life Goes On,1990,Rock,04:47
+S48439,Mr. Frump in the Iron Lung,1983,Comedy,01:54
+S48669,"Ready for the 80's (12"" Version)",1994,Pop,06:52
+S48893,Let It Play,1990,Rock,04:21
+S49075,Whenever You Need Somebody,1987,Pop,03:52
+S49544,I Don't Wanna Know,1985,Pop,04:12
+S49638,Unskinny Bop,1990,Rock,03:47
+S50093,Village People,1994,Pop,05:08
+S50098,I Can't Help It,1979,Pop,04:30
+S50161,I Think I'm a Clone Now,1988,Comedy,03:20
+S50355,A Kind of Magic,1986,Rock,04:24
+S50469,Heart of Stone,1986,Rock,03:46
+S51106,(This Song's Just) Six Words Long,1988,Comedy,03:37
+S51405,"Macho Man (12"" Version)",1994,Pop,05:12
+S51513,Every Breath You Take,1983,Rock,04:13
+S51803,We Made It,1982,Rock,03:56
+S51921,Emotional,1981,Rock,04:55
+S51986,Slime Creatures from Outer Space,1985,Comedy,04:23
+S52171,Rebel Yell,1983,Rock,04:45
+S52336,Church of the Poison Mind,1983,Rock,03:30
+S52365,The Check's in the Mail,1983,Comedy,03:13
+S52462,Into You Like a Train,1981,Rock,04:35
+S52598,I Can See It in Your Eyes,1981,Rock,03:32
+S53020,When the Time Has Come,1996,Rock,04:26
+S53239,Eyes Without a Face,1983,Rock,04:58
+S54055,Mother,1983,Rock,03:05
+S54075,Method of Modern Love,1984,Pop,05:34
+S54798,Party at the Leper Colony,2003,Comedy,03:38
+S55378,Let Me In,1999,Rock,06:13
+S55391,I Love Rocky Road,1983,Comedy,02:36
+S55487,The Love Has Gone,1987,Pop,04:20
+S55494,You Don't Love Me Anymore,1992,Comedy,04:00
+S55684,Phony Calls,1996,Comedy,03:22
+S55739,Amish Paradise,1996,Comedy,03:20
+S55766,I'll Be Mellow When I'm Dead,1983,Comedy,03:39
+S55908,In the Navy,1994,Pop,03:43
+S55912,Syndicated Inc.,1996,Comedy,03:54
+S55914,"Y.M.C.A. (12"" Version)",1994,Pop,06:46
+S55924,Miss Gradenko,1983,Rock,02:00
+S55945,Jerry Springer,1999,Comedy,02:46
+S56098,This Town,1990,Rock,03:18
+S56173,Love Is a Stranger,1983,Rock,03:43
+S56272,Taking Over Me,2003,Rock,03:49
+S56489,Made of Stone,2011,Rock,03:32
+S56987,I Was Only Kidding,1992,Comedy,03:31
+S57305,Cloud Nine,2006,Rock,04:22
+S57366,If You Were There,1984,Pop,03:38
+S58284,Do You Believe in Love,1996,Rock,03:28
+S58655,Erase This,2011,Rock,03:55
+S58714,Twister,1988,Comedy,01:03
+S59181,Lost in Paradise,2011,Rock,04:42
+S59210,Look What the Cat Dragged In,1986,Rock,03:10
+S59240,Freedom,1984,Pop,05:05
+S59642,The Working Hour,1985,Rock,06:30
+S59648,Bad Is Bad,1996,Rock,03:47
+S60040,Don't Stop 'Til You Get Enough,1979,Pop,06:06
+S60954,Sorry My Friend,1997,Rock,03:05
+S61006,Burn This Disco Out,1979,Pop,03:41
+S61309,Callin' in Sick,1996,Comedy,03:40
+S61523,Anyone Out There,1981,Rock,04:02
+S61681,Cavity Search,1996,Comedy,04:19
+S61871,All American Girl,1984,Pop,04:28
+S62872,Down by the Sea,1981,Rock,06:53
+S62933,Thriller,1984,Pop,05:57
+S63001,Goodbye,1997,Rock,03:42
+S63242,Be Good Johnny,1981,Rock,03:39
+S63518,I Want a New Drug,1996,Rock,04:45
+S63928,The Only Way To Be,1999,Rock,03:18
+S64205,New Moon on Monday,1983,Rock,04:16
+S64269,Everybody Wants to Rule the World,1985,Rock,04:10
+S64436,Good for You,1982,Rock,03:17
+S64721,You and Me,1996,Rock,02:29
+S64849,Shooting Stars,1982,Rock,04:30
+S64861,Broken,1985,Rock,02:38
+S64910,Waiting for Your Love,1982,Rock,04:12
+S65025,On the Loose,1986,Rock,03:08
+S65391,Play Dirty,1986,Rock,04:08
+S65564,Head over Heels/Broken (Live),1985,Rock,05:01
+S65587,Fallen Angel,1988,Rock,03:56
+S65681,Catch a Star,1981,Rock,03:31
+S65766,Watch Out,1981,Rock,04:02
+S65944,Alimony,1988,Comedy,03:16
+S66107,Tourniquet,2003,Rock,04:38
+S66247,Trouble in Paradise,1996,Rock,04:32
+S66576,Flesh for Fantasy,1983,Rock,04:37
+S66589,Underground,1981,Rock,03:07
+S66730,Heart and Soul,1996,Rock,04:12
+S66912,Hooked on Polkas,1985,Comedy,03:53
+S67274,Like a Surgeon,1985,Comedy,03:32
+S67306,Night Boat,1981,Rock,05:24
+S67795,Cold Dark and Yesterday,1984,Pop,04:40
+S68038,Don't Lose My Number,1985,Pop,04:46
+S68224,The White Stuff,1992,Comedy,02:43
+S68303,This Is the House,1983,Pop,04:56
+S68494,It's a Miracle,1983,Rock,03:25
+S69116,Dare to Be Stupid,1985,Comedy,03:25
+S69310,I Believe,1985,Rock,04:53
+S69422,It's the Falling in Love,1979,Pop,03:48
+S69493,No More Looking for Love,1987,Pop,03:15
+S70486,For Your,1996,Rock,02:20
+S70712,Who Can it Be Now?,1981,Rock,03:25
+S70758,What You Want,2011,Rock,03:41
+S70855,Since You've Been Gone,1996,Comedy,01:20
+S70980,Poor Boy Blues,1990,Rock,04:52
+S71437,Working Day and Night,1979,Pop,05:14
+S71619,I've Got an Angel,1983,Pop,02:45
+S71637,Truck Drivin' Song,1999,Comedy,02:27
+S71760,Rockin' Robin,1995,Pop,02:32
+S71981,Time Has Come,1986,Rock,04:01
+S72139,Just a Little Bit of You,1995,Pop,03:12
+S72215,I Wanna Sleep with You,1981,Rock,03:17
+S72366,My Bologna,1983,Comedy,02:01
+S72763,No Tears,1981,Rock,03:14
+S72793,Heartbeat,1984,Pop,04:42
+S72812,Synchronicity II,1983,Rock,05:00
+S73909,Superspy,1997,Rock,03:00
+S74605,Modified,1999,Rock,03:47
+S74659,Changing Every Day,1983,Rock,03:17
+S74716,Don't Say Goodbye,1987,Pop,04:02
+S74751,Grapefruit Diet,1999,Comedy,03:30
+S75115,Mister Man,1983,Rock,03:36
+S75278,Afraid of Love,1982,Rock,03:52
+S75360,Everybody's Fool,2003,Rock,03:16
+S75471,Careless Whisper,1984,Pop,06:30
+S75569,The Power of Love,1996,Rock,03:54
+S75787,You Thought,1990,Rock,04:18
+S76370,Back to the Rocking Horse,1988,Rock,03:34
+S76950,Rosanna,1982,Rock,05:31
+S77276,Don't Stop 'Til You Get Enough,1979,Pop,03:58
+S77308,She's Out of My Life,1979,Pop,03:38
+S77346,Wanna B Ur Lovr,2003,Comedy,06:14
+S77426,Come Hell or High Water,1990,Rock,05:01
+S77731,Miss Me Blind,1983,Rock,04:30
+S77777,Somebody Told Me,1983,Pop,03:29
+S77788,Friends Will Be Friends,1986,Rock,04:07
+S77844,Walking in Your Footsteps,1983,Rock,03:36
+S78213,Lies,1997,Rock,03:54
+S78429,Little Differences,1997,Rock,02:42
+S78449,Karma Chameleon,1983,Rock,04:12
+S78604,Dead on Arrival,1982,Rock,03:54
+S78707,"In the  (12"" Version)",1994,Pop,06:12
+S79027,Doesn't Anybody Stay Together Anymore,1985,Pop,04:18
+S79039,Wanna Be Startin' Somethin',1983,Pop,04:21
+S79243,Hello,2003,Rock,03:40
+S79257,(I'm Looking For) Cracks in the Pavement,1983,Rock,03:38
+S79613,Don't Lose Your Head,1986,Rock,04:38
+S79637,The World Is New,1997,Rock,02:12
+S79668,This Is the Life,1985,Comedy,03:06
+S79681,Albuquerque,1999,Comedy,11:23
+S79981,Together Forever,1987,Pop,03:24
+S80940,You Move Me,1987,Pop,03:40
+S81659,Jump,1981,Rock,03:41
+S81690,Everything I Want To Be,1997,Rock,03:48
+S81846,Stop Draggin' My Care Around,1983,Comedy,03:16
+S81873,Sweet Dreams (Are Made of This),1983,Pop,03:36
+S81906,Cry Tough,1986,Rock,03:36
+S82041,White Wedding (Part 1),1982,Rock,04:11
+S82947,Who Wants to Live Forever,1986,Rock,05:15
+S83185,Blue Highway,1983,Rock,05:05
+S83217,Long Long Way to Go,1985,Pop,04:20
+S83287,King of Pain,1983,Rock,04:59
+S83359,Blame It on You,1986,Rock,02:32
+S83440,She Is Mine,1981,Rock,03:51
+S83882,Touching the Untouchables,1981,Rock,03:41
+S84349,End of the Dream,2011,Rock,03:49
+S84449,My Immortal,2003,Rock,04:23
+S84796,Love on the Rocks,1988,Rock,03:33
+S85046,The Heart of Rock & Roll,1996,Rock,05:04
+S85465,Can't Stop the Music,1994,Pop,03:36
+S86783,I Won't Forget You,1986,Rock,03:35
+S86942,O My God,1983,Rock,04:02
+S86967,One Year of Love,1986,Rock,04:26
+S87016,Ode to a Superhero,2003,Comedy,04:53
+S87553,Hot Cop,1994,Pop,06:20
+S87736,Good Enough,2006,Rock,05:32
+S87787,Your Star,2006,Rock,04:43
+S87872,Slipping Away,1987,Pop,03:52
+S88025,Ben,1972,Pop,02:44
+S88466,The Saga Begins,1999,Comedy,05:27
+S88478,Synchronicity I,1983,Rock,03:23
+S89169,Cherokee,1986,Rock,04:20
+S89352,That's the Way (I'm Only Trying to Help You),1983,Rock,02:45
+S89460,How Much More,1990,Rock,03:04
+S90045,The Seventh Stranger,1983,Rock,05:24
+S90569,Sussudio,1985,Pop,04:23
+S90971,The Plumbing Song,1992,Comedy,04:08
+S91454,Genius in France,2003,Comedy,08:58
+S91486,Bring Me to Life,2003,Rock,03:56
+S91514,Friends of Mine,1981,Rock,05:43
+S91690,Stormkeeper,1983,Rock,02:46
+S91808,Doing It All for My Baby,1996,Rock,03:37
+S91891,Cool Jerk,1990,Rock,03:07
+S91945,The Dead Next Door,1983,Rock,03:45
+S92126,Trigger Happy,1992,Comedy,03:46
+S92618,All That I'm Living For,2006,Rock,03:48
+S92809,I'm Not Cryin' For You,1999,Rock,04:03
+S93101,All of This and Nothing,1981,Rock,06:25
+S93226,Going Thru the Motions,1984,Pop,05:40
+S93471,Wrapped Around Your Finger,1983,Rock,05:13
+S93658,Rock with You,1979,Pop,03:40
+S94002,Nobody's Business,1982,Rock,04:06
+S94027,Hardware Store,2003,Comedy,03:45
+S94948,Under 21,1997,Rock,02:36
+S95095,This City Never Sleeps,1983,Pop,06:33
+S95493,Polka Power!,1999,Comedy,04:21
+S95812,Swimming Home,2011,Rock,03:43
+S95862,Who Said I Would,1985,Pop,04:01
+S95879,Lover Chaser,1986,Rock,03:27
+S96021,Life Loves a Tragedy,1990,Rock,05:14
+S96171,Lacrymosa,2006,Rock,03:37
+S96309,Dancing Machine,1995,Pop,02:36
+S96492,Lose Control,2006,Rock,04:50
+S96671,Beatnik Beach,1990,Rock,02:50
+S96744,Tiger Tiger,1983,Rock,03:20
+S96893,Lovers in the Night,1982,Rock,04:25
+S96930,My Heart Is Broken,2011,Rock,04:29
+S97073,Taco Grande,1992,Comedy,03:44
+S97148,Fire Island,1994,Pop,05:16
+S97364,Tel Aviv,1981,Rock,05:20
+S97837,Workin' for a Livin',1996,Rock,02:39
+S98383,Happy Birthday,1983,Comedy,02:28
+S98388,Weight of the World,2006,Rock,03:37
+S98427,Down Under,1981,Rock,03:45
+S98475,Going Under,2003,Rock,03:35
+S98552,Swampjuice (Soul-O),1990,Rock,01:25
+S98657,Yoda,1985,Comedy,03:58
+S98858,Rock the Night,1986,Rock,04:03
+S98901,Smells Like Nirvana,1992,Comedy,03:42
+S98980,eBay,2003,Comedy,03:36
+S99298,Lasagna,1988,Comedy,02:46
+S99978,Til the Day After,1996,Rock,03:27
